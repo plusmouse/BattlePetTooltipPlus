@@ -1,0 +1,7 @@
+## Interface: 90002
+## Title: Battle Pet Tooltip Plus
+## Version: 1
+## Author: plusmouse
+## Notes: Show all the sources in pet tooltips
+
+Source\Main.lua
