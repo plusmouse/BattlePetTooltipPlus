@@ -13,7 +13,5 @@ function BattlePetTooltipPlus.ModifyPetTip(
 
   local petInfo = {C_PetJournal.GetPetInfoBySpeciesID(speciesID)}
 
-  local colored = petInfo[5]:gsub("|n$", ""):gsub("|r", "|cffffffff") .. "|r"
-
-  GameTooltip_AddNormalLine(BattlePetTooltip, colored, true)
+  BattlePetTooltip:AddLine(petInfo[5], 1, 1, 1, true)
 end
